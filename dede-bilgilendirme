@@ -1,0 +1,20 @@
+meme_dict = {
+            "CRINGE" or "cringe": "Garip ya da utandırıcı bir şey",
+            "LOL" or "lol": "Komik bir şeye verilen cevap",
+            "SHİP" or "ship": "Biri ile birini yakıştırmak",
+            "ROFL" or "rofl": "Komik bir şeye verilen cevap",
+           
+            }
+
+print("Merhaba yaşlı dedeler ve babanneler, anneanneleride unutmadık.")
+print("Bu sözlük, torununuzun side e'ye rush atarken kullandığı cümleleri artık anlamanıza yarayacak!")
+for i in range(5):
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+    
+    if word in meme_dict.keys():
+        meaning = meme_dict[word]
+        print("Anlamı", meaning)
+        # Kelime eşleşiyorsa ne yapmalıyız?
+    else:
+        
+        print("Böyle bir meme yok?")
